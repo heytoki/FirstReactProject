@@ -1,13 +1,69 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: x-large;
+  font-family: Arial;
+  color: white;
+  background: #1b1c36;
+  display: flex;
+  line-height: 2.0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  display: inline-block;
+  font-size: xx-large;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  width: 300px;
+  text-align: center;
 }
+
+.coldButton {
+  background: #000099;
+}
+
+.coldButton:hover {
+  background: #1a1aff;
+  transition: 7ms;
+}
+
+.hotButton {
+  background: #CC0633;
+}
+
+.hotButton:hover {
+  background: #f83a66;
+  transition: 7ms;
+}
+
+.coffeeButton {
+  background: #923c01;
+}
+
+.coffeeButton:hover {
+  background: #b64b01;
+  transition: 7ms;
+}
+
+.teaButton {
+  background: #006622;
+}
+
+.teaButton:hover {
+  background: #009933;
+  transition: 7ms;
+}
+
+.iceSlider {
+  width: 230px;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  width: 100%
+}
+
+.confirmBtn {
+  background: white;
+  color: #000099;
+}
+
